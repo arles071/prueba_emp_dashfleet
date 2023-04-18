@@ -1,0 +1,13 @@
+query {
+        order(document_type: "CC", document: "429119573") {
+            data {
+                id
+                name
+                document_type
+                document
+                orders {
+                    order_code
+                }
+            }
+        }      
+    }
